@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Awareness Leaflet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #f5f5f5;
+        }
+        .leaflet-container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+        .panel {
+            width: 33.33%;
+            padding: 20px;
+            box-sizing: border-box;
+            border-right: 1px solid #ddd;
+        }
+        .panel:last-child {
+            border-right: none;
+        }
+        h2 {
+            color: #c21807;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+            color: #333;
+        }
+        .cover-panel {
+            text-align: center;
+            background-color: #e0f7fa;
+        }
+        .cover-panel h1 {
+            color: #c21807;
+            font-size: 2em;
+        }
+        .qr-code {
+            margin-top: 15px;
+            text-align: center;
+        }
+        .qr-code img {
+            width: 100px;
+        }
+        .resources {
+            font-size: 0.9em;
+            color: #00796b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="leaflet-container">
+    <!-- Front Cover Panel -->
+    <div class="panel cover-panel">
+        <h1>Protect Your Heart</h1>
+        <p><strong>A Guide to Heart Disease Prevention</strong></p>
+        <p>Simple Steps to a Healthier Heart for Adults Aged 45-65</p>
+        <p>Your journey to a healthy heart starts here!</p>
+    </div>
+
+    <!-- Panel: What is Heart Disease? -->
+    <div class="panel">
+        <h2>What is Heart Disease?</h2>
+        <p>Heart disease includes various conditions that affect heart function, the most common being coronary artery disease.</p>
+        <p><strong>Did You Know?</strong></p>
+        <ul>
+            <li>Heart disease is a leading cause of death in adults over 45 in the UK.</li>
+            <li>Many cases are preventable with lifestyle changes.</li>
+        </ul>
+        <p><strong>Symptoms:</strong></p>
+        <ul>
+            <li>Chest pain or discomfort</li>
+            <li>Shortness of breath</li>
+            <li>Fatigue, dizziness, or nausea</li>
+        </ul>
+    </div>
+
+    <!-- Panel: Risk Factors -->
+    <div class="panel">
+        <h2>Risk Factors</h2>
+        <p>Understand your risks to make informed choices:</p>
+        <ul>
+            <li><strong>Lifestyle Factors:</strong> Diet, inactivity, smoking, alcohol</li>
+            <li><strong>Age:</strong> Higher risk over 45</li>
+            <li><strong>Family History:</strong> Increased risk with family history</li>
+            <li><strong>High Blood Pressure & Cholesterol</strong></li>
+            <li><strong>Diabetes</strong></li>
+        </ul>
+    </div>
+
+    <!-- Panel: Steps for a Healthier Heart -->
+    <div class="panel">
+        <h2>Steps for a Healthier Heart</h2>
+        <p>Practical lifestyle changes can make a big difference:</p>
+        <ul>
+            <li><strong>Eat a Balanced Diet:</strong> More fruits, vegetables, whole grains</li>
+            <li><strong>Exercise Regularly:</strong> Aim for 30 minutes most days</li>
+            <li><strong>Quit Smoking:</strong> Reduces heart disease risk significantly</li>
+            <li><strong>Limit Alcohol:</strong> Stick to recommended guidelines</li>
+            <li><strong>Manage Stress:</strong> Try relaxation techniques daily</li>
+            <li><strong>Monitor Your Health:</strong> Regular check-ups are key</li>
+        </ul>
+    </div>
+
+    <!-- Panel: Additional Information -->
+    <div class="panel">
+        <h2>Your Health Journey Starts Now</h2>
+        <p>Visit these resources for more on heart health:</p>
+        <p class="resources">
+            <a href="https://www.bhf.org.uk" target="_blank">British Heart Foundation</a><br>
+            <a href="https://www.nhs.uk/conditions/coronary-heart-disease/" target="_blank">NHS Heart Health</a>
+        </p>
+        <div class="qr-code">
+            <p>Scan the QR code for feedback:</p>
+            <img src="your-qrcode-url.png" alt="QR Code for Feedback">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
